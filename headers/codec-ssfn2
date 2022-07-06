@@ -1,0 +1,5 @@
+#pragma once
+
+#include <codec-ssfn2/ssfn2.h>
+#include <codec-ssfn2/spec.h>
+

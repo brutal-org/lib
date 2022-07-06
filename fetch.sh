@@ -32,4 +32,6 @@ rm -rf .temp
 cd libs/embed/
 
 
-find . -type f \( -not -name '*.h' \) -and \( -not -path './x86_64/**' \) -and \( -not -path './sdl/**' \) -and \( -not -path './posix/**' \)
+find . -type f \( -not -name '*.h' \) -and \( -not -path './x86_64/**' \) -and \( -not -path './sdl/**' \) -and \( -not -path './posix/**' \) -delete
+
+cd ../..

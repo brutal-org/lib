@@ -1,8 +1,8 @@
 #pragma once
 
-#include <codec-deflate/huff.h>
+#include <codec-deflate/deflate.h>
 #include <codec-deflate/constants.h>
 #include <codec-deflate/errors.h>
-#include <codec-deflate/deflate.h>
+#include <codec-deflate/huff.h>
 #include <codec-deflate/inflate.h>
 

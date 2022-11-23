@@ -1,10 +1,10 @@
 #pragma once
 
-#include <idl/cgen.h>
-#include <idl/parse.h>
-#include <idl/sema.h>
 #include <idl/json.h>
 #include <idl/ast.h>
+#include <idl/sema.h>
+#include <idl/parse.h>
+#include <idl/cgen.h>
 #include <idl/ast/iface.h>
 #include <idl/ast/builder.h>
 #include <idl/ast/query.h>

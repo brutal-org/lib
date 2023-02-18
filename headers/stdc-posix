@@ -1,7 +1,7 @@
 #pragma once
 
 #include <stdc-posix/locale.h>
-#include <stdc-posix/errno.h>
 #include <stdc-posix/string.h>
+#include <stdc-posix/errno.h>
 #include <stdc-posix/locale/local_t.h>
 

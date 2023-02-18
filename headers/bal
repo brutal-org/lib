@@ -4,13 +4,13 @@
 #include <bal/hw.h>
 #include <bal/boot.h>
 #include <bal/task.h>
+#include <bal/boot/handover.h>
+#include <bal/task/task.h>
+#include <bal/hw/fb.h>
 #include <bal/hw/mem.h>
 #include <bal/hw/io.h>
-#include <bal/hw/fb.h>
-#include <bal/boot/handover.h>
-#include <bal/abi/helpers.h>
-#include <bal/abi/types.h>
-#include <bal/abi/wrappers.h>
 #include <bal/abi/syscalls.h>
-#include <bal/task/task.h>
+#include <bal/abi/types.h>
+#include <bal/abi/helpers.h>
+#include <bal/abi/wrappers.h>
 

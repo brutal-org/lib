@@ -1,17 +1,17 @@
 #pragma once
 
-#include <embed/file.h>
-#include <embed/mem.h>
+#include <embed/time.h>
 #include <embed/sync.h>
+#include <embed/crypto.h>
 #include <embed/log.h>
 #include <embed/debug.h>
-#include <embed/crypto.h>
-#include <embed/chan.h>
 #include <embed/file-decl.h>
-#include <embed/time.h>
+#include <embed/mem.h>
+#include <embed/file.h>
+#include <embed/chan.h>
 #include <embed/task.h>
-#include <embed/posix/file.h>
 #include <embed/posix/err.h>
-#include <embed/efi/file.h>
+#include <embed/posix/file.h>
 #include <embed/brutal/file.h>
+#include <embed/efi/file.h>
 

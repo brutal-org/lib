@@ -1,10 +1,10 @@
 #pragma once
 
-#include <brutal-text/utf16.h>
-#include <brutal-text/str.h>
 #include <brutal-text/cp437.h>
+#include <brutal-text/utf16.h>
 #include <brutal-text/rune.h>
-#include <brutal-text/witty.h>
 #include <brutal-text/vals.h>
 #include <brutal-text/utf8.h>
+#include <brutal-text/witty.h>
+#include <brutal-text/str.h>
 

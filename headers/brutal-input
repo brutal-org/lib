@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-input/event.h>
-#include <brutal-input/keyboard.h>
 #include <brutal-input/mouse.h>
+#include <brutal-input/keyboard.h>
+#include <brutal-input/event.h>
 

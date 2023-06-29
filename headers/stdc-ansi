@@ -1,12 +1,12 @@
 #pragma once
 
-#include <stdc-ansi/endian.h>
 #include <stdc-ansi/stdio.h>
-#include <stdc-ansi/ctype.h>
-#include <stdc-ansi/fenv.h>
-#include <stdc-ansi/stdlib.h>
-#include <stdc-ansi/string.h>
-#include <stdc-ansi/assert.h>
-#include <stdc-ansi/locale.h>
 #include <stdc-ansi/errno.h>
+#include <stdc-ansi/locale.h>
+#include <stdc-ansi/string.h>
+#include <stdc-ansi/stdlib.h>
+#include <stdc-ansi/fenv.h>
+#include <stdc-ansi/endian.h>
+#include <stdc-ansi/ctype.h>
+#include <stdc-ansi/assert.h>
 

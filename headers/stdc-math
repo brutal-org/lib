@@ -1,6 +1,6 @@
 #pragma once
 
-#include <stdc-math/libm.h>
 #include <stdc-math/__invtrigl.h>
+#include <stdc-math/libm.h>
 #include <stdc-math/math.h>
 

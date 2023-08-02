@@ -1,5 +1,5 @@
 #pragma once
 
-#include <brutal-debug/log.h>
 #include <brutal-debug/assert.h>
+#include <brutal-debug/log.h>
 

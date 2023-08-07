@@ -1,9 +1,5 @@
 #pragma once
 
-#include <stdc-base/prelude.h>
-
-STDC_BEGIN_HEADER
-
 /* --- 7.2 Diagnostics ------------------------------------------------------ */
 
 void assert_failed_impl(void);
@@ -19,5 +15,3 @@ void assert_failed_impl(void);
 #endif
 
 #define static_assert _Static_assert
-
-STDC_END_HEADER

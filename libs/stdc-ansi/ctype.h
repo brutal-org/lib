@@ -1,10 +1,6 @@
 #pragma once
 
-#include <stdc-base/prelude.h>
-
 /* --- 7.4 Character - handling --------------------------------------------- */
-
-STDC_BEGIN_HEADER
 
 /* --- 7.4.1 Character classification - Copying functions ------------------- */
 
@@ -35,5 +31,3 @@ int isxdigit(int c);
 int tolower(int c);
 
 int toupper(int c);
-
-STDC_END_HEADER

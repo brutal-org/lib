@@ -1,10 +1,6 @@
 #pragma once
 
-#include <stdc-base/prelude.h>
-
 /* --- 7.6 - Floating-point environment ------------------------------------- */
-
-STDC_BEGIN_HEADER
 
 typedef struct
 {
@@ -47,5 +43,3 @@ int fesetround(int);
 int fetestexcept(int);
 
 int feupdateenv(fenv_t const *);
-
-STDC_END_HEADER

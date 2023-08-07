@@ -2,29 +2,29 @@
 #include <hw/ps2/mouse.h>
 #include <ipc/ipc.h>
 
-InputEventType ps2_mouse_event_type(InputMouseEvent prev, InputMouseEvent next)
+UiEventType ps2_mouse_event_type(UiMouseEvent prev, UiMouseEvent next)
 {
     if (next.buttons > prev.buttons)
     {
-        return INPUT_EVENT_MOUSE_DOWN;
+        return UI_EVENT_MOUSE_DOWN;
     }
 
     if (next.buttons < prev.buttons)
     {
-        return INPUT_EVENT_MOUSE_UP;
+        return UI_EVENT_MOUSE_UP;
     }
 
     if (m_vec2f_len(prev.offset) > 0)
     {
-        return INPUT_EVENT_MOUSE_MOVE;
+        return UI_EVENT_MOUSE_MOVE;
     }
 
     if (m_vec2f_len(prev.scroll) > 0)
     {
-        return INPUT_EVENT_MOUSE_SCROLL;
+        return UI_EVENT_MOUSE_SCROLL;
     }
 
-    return INPUT_EVENT_IGNORE;
+    return UI_EVENT_IGNORE;
 }
 
 static void ps2_mouse_handle_packed(Ps2Mouse *self)
@@ -55,7 +55,7 @@ static void ps2_mouse_handle_packed(Ps2Mouse *self)
     }
 
     // decode the new mouse packet
-    InputMouseEvent event = {};
+    UiMouseEvent event = {};
 
     event.offset.x = offx;
     event.offset.y = -offy;
@@ -66,7 +66,7 @@ static void ps2_mouse_handle_packed(Ps2Mouse *self)
     event.buttons |= ((buf[0] >> 2) & 1) ? MSBTN_MIDDLE : 0;
 
     self->callback(
-        (InputEvent){
+        (UiEvent){
             .type = ps2_mouse_event_type(self->prev, event),
             .mouse = event,
         },

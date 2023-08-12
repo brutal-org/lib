@@ -1,6 +1,7 @@
 #pragma once
 
 #include <stdc-ansi/errno.h>
+#include <stdc-ansi/stdbool.h>
 #include <stdc-ansi/assert.h>
 #include <stdc-ansi/fenv.h>
 #include <stdc-ansi/stdio.h>

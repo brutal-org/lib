@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-hash/adler32.h>
-#include <brutal-hash/crc32.h>
 #include <brutal-hash/fnv.h>
+#include <brutal-hash/crc32.h>
+#include <brutal-hash/adler32.h>
 

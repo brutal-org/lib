@@ -1,14 +1,14 @@
 #pragma once
 
+#include <bvm/obj.h>
 #include <bvm/ctx.h>
 #include <bvm/eval.h>
-#include <bvm/obj.h>
-#include <bvm/ctx/global.h>
-#include <bvm/ctx/local.h>
-#include <bvm/base/res.h>
 #include <bvm/eval/eval.h>
 #include <bvm/eval/instr.h>
+#include <bvm/base/res.h>
+#include <bvm/obj/obj.h>
 #include <bvm/obj/func.h>
 #include <bvm/obj/val.h>
-#include <bvm/obj/obj.h>
+#include <bvm/ctx/global.h>
+#include <bvm/ctx/local.h>
 

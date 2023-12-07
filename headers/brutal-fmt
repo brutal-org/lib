@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-fmt/case.h>
-#include <brutal-fmt/funcs.h>
 #include <brutal-fmt/fmt.h>
+#include <brutal-fmt/funcs.h>
+#include <brutal-fmt/case.h>
 

@@ -2,6 +2,6 @@
 
 #include <brutal-test/hook-gfx.h>
 #include <brutal-test/expect.h>
-#include <brutal-test/runner.h>
 #include <brutal-test/hook-alloc.h>
+#include <brutal-test/runner.h>
 

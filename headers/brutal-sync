@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-sync/rwlock.h>
 #include <brutal-sync/lock.h>
+#include <brutal-sync/rwlock.h>
 #include <brutal-sync/ref.h>
 

@@ -1,17 +1,17 @@
 #pragma once
 
-#include <brutal-math/edge.h>
 #include <brutal-math/flow.h>
-#include <brutal-math/easing.h>
-#include <brutal-math/rect.h>
 #include <brutal-math/funcs.h>
-#include <brutal-math/spacing.h>
-#include <brutal-math/trans2.h>
-#include <brutal-math/rand.h>
-#include <brutal-math/angle.h>
-#include <brutal-math/vec2.h>
-#include <brutal-math/gravity.h>
-#include <brutal-math/clamp.h>
-#include <brutal-math/dock.h>
 #include <brutal-math/orientation.h>
+#include <brutal-math/dock.h>
+#include <brutal-math/vec2.h>
+#include <brutal-math/spacing.h>
+#include <brutal-math/angle.h>
+#include <brutal-math/rect.h>
+#include <brutal-math/trans2.h>
+#include <brutal-math/edge.h>
+#include <brutal-math/easing.h>
+#include <brutal-math/gravity.h>
+#include <brutal-math/rand.h>
+#include <brutal-math/clamp.h>
 

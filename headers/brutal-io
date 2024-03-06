@@ -1,16 +1,16 @@
 #pragma once
 
+#include <brutal-io/bitbuf.h>
+#include <brutal-io/buf.h>
 #include <brutal-io/funcs.h>
-#include <brutal-io/mem.h>
 #include <brutal-io/rbits.h>
-#include <brutal-io/path.h>
 #include <brutal-io/window.h>
 #include <brutal-io/file.h>
-#include <brutal-io/base.h>
-#include <brutal-io/emit.h>
-#include <brutal-io/traits.h>
-#include <brutal-io/bitbuf.h>
-#include <brutal-io/chan.h>
-#include <brutal-io/buf.h>
 #include <brutal-io/wbits.h>
+#include <brutal-io/emit.h>
+#include <brutal-io/mem.h>
+#include <brutal-io/chan.h>
+#include <brutal-io/traits.h>
+#include <brutal-io/base.h>
+#include <brutal-io/path.h>
 
